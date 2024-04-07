@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "directus": "^10.10.5",
     "nuxt": "^3.11.1",
+    "sqlite3": "^5.1.7",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   }
