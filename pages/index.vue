@@ -1,10 +1,12 @@
 <template>
     <div>
-        <p>Paul hat das geschrieben: {{ text }}</p>
-
+        <AddEntry/>
     </div>
 </template>
-<script>
+<script>/*
+<p>Paul hat das geschrieben: {{ text }}</p>
+
+
 export default {
     data(){
         return {
@@ -16,5 +18,5 @@ export default {
         this.text = data.data[0].Titel
     });
   }
-}
+}*/
 </script>
