@@ -1,5 +1,5 @@
 <template>
     <div>
-        <p>Das ist random</p>
+        <GoBackButton />
     </div>
 </template>
