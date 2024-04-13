@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Navbar />
         <AddPostButton/>
     </div>
 </template>
