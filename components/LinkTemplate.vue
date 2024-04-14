@@ -1,5 +1,5 @@
 <template>
-      <NuxtLink :to="link" class="my-12 mx-12 hover:bg-slate-300 py-3 px-3 rounded-md">
+      <NuxtLink :to="link" class="lg:my-12 lg:mx-12 my-7 mx-7 hover:bg-slate-200 py-3 px-3 rounded-md">
             <slot></slot>
       </NuxtLink>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <Navbar />
-        <AddPostButton/>
+        <AddPostLink />
     </div>
 </template>
 <script>/*
@@ -21,5 +21,5 @@ export default {
   }
 }*/
 
-import AddPostButton from '~/components/AddPostButton.vue';
+import AddPostLink from '~/components/AddPostLink.vue';
 </script>

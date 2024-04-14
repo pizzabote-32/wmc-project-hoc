@@ -1,5 +1,5 @@
 <template>
     <div>
-        <GoBackButton />
+        <GoBackLink />
     </div>
 </template>
