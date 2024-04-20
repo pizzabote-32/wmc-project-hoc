@@ -2,6 +2,7 @@
     <div>
         <Navbar />
         <AddPostLink />
+        <PostContainer />
     </div>
 </template>
 <script>/*
