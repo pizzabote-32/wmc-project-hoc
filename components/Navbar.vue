@@ -4,11 +4,14 @@
             <img src="../pictures/logo.png" alt="spengergasse-logo" class="w-12 md:w-14">
             <p>HTL Spengergasse</p>
         </div>
-        <p :class="`md:block order-3 md:order-2 ${
+        <div :class="`md:block order-3 md:order-2 flex ${
         state
           ? ' hidden'
           : ' block'
-        }`">Kategorien</p>
+        }`">
+            <p>Kategorien</p>
+            <img src="../pictures/arrow-down.png" alt="arrow-down" class="w-12 md:w-14">
+        </div>
         <div :class="`md:flex gap-7 order-2 md:order-3 ${
         state
           ? ' hidden'
