@@ -2,9 +2,9 @@
     <nav class="flex gap-5 md:gap-0 flex-col md:flex-row md:px-8 lg:px-16 xl:px-36 2xl:px-52 px-6 py-8 md:py-11 bg-slate-200 text-lg lg:text-xl md:items-center justify-between">
         <div class="flex content-center items-center gap-2 w-100 font-semibold order-1">
             <img src="../public/logo.png" alt="spengergasse-logo" class="w-12 md:w-14">
-            <p>HTL Spengergasse</p>
+            <p class="m-auto">  HTL Spengergasse</p>
         </div>
-        <Kategorie :state="true" :class="`${ 
+        <Kategorie :state="false" :class="`${ 
         state
           ? ' hidden'
           : ' flex'
